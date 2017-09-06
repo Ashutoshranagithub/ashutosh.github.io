@@ -1,0 +1,159 @@
+:root{
+	--green-color: #40f480;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Nunito;
+}
+html{
+	font-size: 16px;
+}
+/*Heading tags*/
+.page_intro{
+	max-width: 900px;
+	max-height: 50px;
+}
+.bonjour{
+	height: 2rem;
+	width: 16em;
+	/*border: 1px solid #000;*/
+	margin: 100px 0 0 150px;
+}
+.bonjour h1{
+	
+}
+h5{
+	font-weight: 800;
+	color: #000;
+	margin: 100px 0 0 150px;
+}
+p{
+	margin: 30px 0 0 150px;
+	color: #8c8989;
+}
+.flash_message{
+	height: 1rem;
+	width: 150px;
+	padding: 10px 20px 20px 50px;
+	border: 1px solid #000;
+	background-color: #000;
+	margin: 18% 10% 0 40%;
+	cursor: not-allowed;
+}
+.flash_message p {
+	color: #0af338;
+	float: left;
+	margin: 4% 10% 0 0;
+	max-height: 2rem;
+	font-size: .65rem;
+	font-weight: 700;
+}
+b{
+	color: #000;
+}
+strong:nth-child(2){
+	color: #f58594;
+	-webkit-animation-name:pink_text;
+	-webkit-animation-duration:4s;
+	animation-name: pink_text;
+	animation-duration: 4s;
+}
+strong:nth-child(1){
+	color: #000;
+	/*-webkit-animation-name:logo_anim 4s infinite;
+	animation-name: logo_anim 4s infinite;*/
+	animation: logo_anim 4s infinite;
+	-webkit-animation:logo_anim 4s infinite;
+}
+ 
+a{
+	color: #000;
+	text-decoration: none;
+}
+/*images*/
+img{
+	height: auto;
+}
+.avatar{
+	float: right;
+	margin: -30% 5% 0 0;
+	overflow: scroll;
+}
+.name_box{
+	float: right;
+	margin: -100px 110px 0 0;
+	}
+
+h2{
+	font-family: Segoe UI;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+.name_profession{
+	margin: -22px 0 0 55px;
+}
+/*btn_home*/
+.btn_home{
+	text-align: center;
+	display: block;
+	max-width: 100px;
+	border: 1px solid var(--green-color);
+	border-radius: 50px;
+	padding: 10px 15px 10px 15px;
+	margin: 100px 0 0 160px;
+	background-color: var(--green-color);
+	font-weight: 600;
+    box-shadow: 0 0 6px 3px #9adea7;
+    position:fixed;
+    transition: 1s;
+    outline: none;
+    border-style: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn_home:hover{
+	background: transparent;
+	border:1px solid #000;
+	box-shadow: none;
+	transition: 1s;
+}
+/*Animation*/
+
+
+@keyframes pink_text{
+	0%{color: var(--green-color);}
+	50%{color: #f58594;}
+	100%{color: var(--green-color);}
+}
+@-webkit-keyframes pink_text{
+   0%{color: var(--green-color);}
+	50%{color: #f58594;}
+	100%{color: var(--green-color);}
+}
+@-moz-keyframes pink_text{
+    0%{color: var(--green-color);}
+	50%{color: #f58594;}
+	100%{color: var(--green-color);}
+}
+@keyframes logo_anim{
+	0%{color: var(--green-color);}
+	25%{color: black;}
+	50%{color: #f58594;}
+	100%{color: var(--green-color);}
+}
+@-webkit-keyframes logo_anim{
+   0%{color: var(--green-color);}
+   25%{color: black;}
+	50%{color: #f58594;}
+	100%{color: var(--green-color);}
+}
+@-moz-keyframes logo_anim{
+    0%{color: var(--green-color);}
+    25%{color: black;}
+	50%{color: #f58594;}
+	100%{color: var(--green-color);}
+}
+
