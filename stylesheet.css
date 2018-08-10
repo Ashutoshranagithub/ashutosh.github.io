@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+body{
+	background-color: #FFF;
+	font-family: Nunito;
+}
+.nav_section{
+	/*border: 1px solid #0A99FA;*/
+	margin-top: 100px;
+	height: 50px;
+	max-width: auto;
+}
+.logo{
+	font-family: Nunito;
+	font-weight: bold;
+	margin-left: 150px;
+}
+.menu{
+	float: right;
+	line-height: 6px;
+	color: #878585;
+	font-family: Monotype Corsiva;
+	margin-top: -45px;
+	margin-right: 180px;
+	cursor: pointer;
+}
+.text_section{
+	/*border: 1px solid #0A99FA;*/
+	max-width: 300px;
+	height: 250px;
+	margin-top: 130px;
+	margin-left: 300px;
+}
+.knowledge{
+	color: #888787;
+	font-family: Segoe UI;
+	font-size: 15px;
+	margin-top: -15px;
+	margin-bottom: 35px;
+}
+.know_more{
+	cursor: pointer;
+	height: 30px;
+    width: 100px;
+    padding-top: 10px;
+	background-color: #000;
+	color: #FFF;
+	text-align: center;
+	font-family: Segoe UI;
+	font-size: 13px;
+}
+.know_more:hover{
+	border: 2px solid #000;
+	background-color: #FFF;
+	color: #000;
+}
+a{
+	text-decoration: none;
+}
+.hero_image{
+	height: 350px;
+	max-width: 350px;
+	float: right;
+	margin-right: 150px;
+	margin-top: -350px;
+}
+h1{
+	font-family: Lato;
+	font-weight: 800;
+}
+.curious{
+	color: #313131;
+}
