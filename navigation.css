@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+.body{
+	background-color: #FFF;
+	font-family: Nunito;
+}
+.main_box{
+	/*border: 1px solid #000;*/
+	height: 150px;
+	margin-top: 20%;
+	max-width: auto;
+	margin-bottom: 10%;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	font-family: Nunito;
+	font-weight: 800;
+	color: #4a4848;
+	margin-top: 5%;
+	font-size: 35px;
+}
+h1:hover{
+	color: #000;
+}
+.home_{
+	float: left;
+	margin-left: 20%;
+	letter-spacing: 4px;
+	position: relative;
+}
+.portfolio_, .resume_, .contact_{
+	float: left;
+	margin-left: 30px;
+	letter-spacing:4px;
+}
+.back_{
+	cursor: pointer;
+	height: 30px;
+    width: 100px;
+    padding-top: 10px;
+	background-color: #000;
+	color: #FFF;
+	text-align: center;
+	font-family: Nunito;
+	font-size: 13px;
+}
+.back_:hover{
+	border: 2px solid #000;
+	background-color: #FFF;
+	color: #000;
+}
