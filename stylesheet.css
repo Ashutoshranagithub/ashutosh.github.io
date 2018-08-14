@@ -23,6 +23,11 @@ body{
 	margin-top: -45px;
 	margin-right: 180px;
 	cursor: pointer;
+	transition: 1s;
+}
+.menu:hover{
+	color: #000;
+	transition: 1s;
 }
 .text_section{
 	/*border: 1px solid #0A99FA;*/
