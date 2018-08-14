@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 body{
 	background-color: #FFF;
 	font-family: Nunito;
@@ -37,4 +38,14 @@ body{
 	line-height: 1px;
 	color: #2d2d2d;
 	font-size: 15px;
+}
+/*responsive design*/
+@media (min-width: 320px) and (max-width: 480px){
+
+	.logo{
+		margin-left: 20px;
+	}
+	.menu{
+	margin-right: 15px;
+	}
 }

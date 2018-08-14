@@ -14,6 +14,7 @@ body{
 	font-family: Nunito;
 	font-weight: bold;
 	margin-left: 150px;
+	font-size: 100%;
 }
 .menu{
 	float: right;
@@ -75,4 +76,14 @@ h1{
 }
 .curious{
 	color: #313131;
+}
+/*Responsive design*/
+@media (min-width: 320px) and (max-width: 480px){
+
+	.logo{
+		margin-left: 20px;
+	}
+	.menu{
+	margin-right: 15px;
+	}
 }
